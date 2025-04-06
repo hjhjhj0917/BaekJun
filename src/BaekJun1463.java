@@ -15,13 +15,8 @@ public class BaekJun1463 {
 
         while (num > 1) {
 
-            if (num % 3 != 0) {
-                if (num % 2 != 0) {
-                    num -= 1;
-                } else {
-                    num = num / 2;
-                }
-
+            if (num % 3 == 1) {
+                num -= 1;
             } else {
                 if (num % 3 == 0) {
                     num /= 3;
@@ -38,7 +33,13 @@ public class BaekJun1463 {
             if (a % 2 == 1) {
                 a -= 1;
             } else {
-                a /= 2;
+                if (a % 2 == 0) {
+                    a /= 2;
+                } else if (a % 3 == 0) {
+                    a /= 3;
+                } else {
+                    a -= 1;
+                }
             }
             cnt++;
         }
@@ -49,6 +50,5 @@ public class BaekJun1463 {
         } else {
             System.out.println(count);
         }
-        sc.close();
     }
 }
