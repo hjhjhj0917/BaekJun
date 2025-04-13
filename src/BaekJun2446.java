@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class BaekJun2446 {
 
+    // 별을 모개시계 모양으로 찍는 프로그램을 작성하시오.
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
