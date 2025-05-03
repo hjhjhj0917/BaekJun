@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package BaekJun;
+
 import java.util.HashSet;
 import java.util.Scanner;
 

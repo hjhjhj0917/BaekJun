@@ -1,3 +1,5 @@
+package BaekJun;
+
 import java.util.Scanner;
 
 public class BaekJun27294 {

@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package BaekJun;
+
 import java.util.Scanner;
 
 public class BaekJun1546 {
