@@ -10,9 +10,13 @@ public class BaekJun5928 {
         int hour = sc.nextInt();
         int min = sc.nextInt();
 
-        int start = 11*24*60 + 11*60 + 11;
-        int cmp = day*24*60 + hour*60 + min;
+        int elapsedMin = (day - 11) * 24 * 60 + (hour - 11) * 60 + (min - 11);
 
-        System.out.println(cmp - start);
+        if (elapsedMin < 0) {
+            System.out.println(-1);
+        } else {
+            System.out.println(elapsedMin);
+        }
     }
 }
+
