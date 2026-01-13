@@ -1,0 +1,20 @@
+package BaekJun;
+
+import java.util.Scanner;
+
+public class BaekJun2902 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        StringBuilder sb = new StringBuilder();
+
+        String str = sc.nextLine();
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') {
+                sb.append(str.charAt(i));
+            }
+        }
+
+        System.out.println(sb);
+    }
+}
