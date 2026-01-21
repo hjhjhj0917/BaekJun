@@ -11,5 +11,7 @@ public class BaekJun2914 {
         for (int i = 1; i <= apple; i++) {
             System.out.println("Apple");
         }
+
+        sc.close();
     }
 }
