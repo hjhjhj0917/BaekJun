@@ -11,8 +11,6 @@ public class BaekJum2991 {
         int m = sc.nextInt();
         int n = sc.nextInt();
 
-
-
         while (true) {
 
 
