@@ -16,9 +16,7 @@ public class BaekJun1292 {
 
                 cnt += 1;
 
-                if (cnt >= startNum && cnt <= endNum) {
-                    result += i;
-                }
+                if (cnt >= startNum && cnt <= endNum) result += i;
             }
         }
 
